@@ -46,6 +46,17 @@ VALUES
     (7, '2024-04-09', 105.96),
     (3, '2024-04-10', 115.98); -- CustomerID 3 placing another order
 
+
+-- Data insertion into Employees Table for Schema Validation purpose --
+INSERT INTO Employees (FirstName, LastName, Email, Phone, HireDate, Position, Salary)
+VALUES 
+    ('Dimeji', 'John', 'dimeji.john@xylem.com', '123-456-7890', '2024-01-01', 'Manager', 60000.00),
+    ('Jane', 'Smith', 'jane.smith@xylem.com', '987-654-3210', '2024-02-01', 'Sales Associate', 40000.00),
+    ('Michael', 'Johnson', 'michael.johnson@xylem.com', '555-555-5555', '2024-03-01', 'Accountant', 50000.00),
+    ('Emily', 'Williams', 'emily.williams@xylem.com', '111-222-3333', '2024-04-01', 'Customer Service Representative', 35000.00),
+    ('Adekunle', 'Hector', 'adekunle.hector@xylem.com', '999-888-7777', '2024-05-01', 'IT Specialist', 55000.00);
+
+
 -- Data insertion into OrderDetails Table for Schema Validation purpose --
 INSERT INTO OrderDetails (OrderID, BookID, Quantity)
 VALUES 
