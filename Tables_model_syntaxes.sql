@@ -36,7 +36,7 @@ CREATE TABLE Books (
 
 -- Create the 'Authors' table
 CREATE TABLE Authors (
-    AuthorID INT PRIMARY KEY IDENTITY(1,1),
+    AuthorID INT PRIMARY KEY IDENTITY(100,1),
     AuthorName NVARCHAR(100)
 );
 
