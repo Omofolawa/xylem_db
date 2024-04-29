@@ -5,7 +5,7 @@ Description for the Xylem Database:
 The Xylem database is a comprehensive relational database designed to manage and streamline operations for an online bookstore. It incorporates tables to store essential information about customers, employees, orders, books, authors, and order details, facilitating efficient management of bookstore activities.
 
 Key Features:
-1. Customers Table**: Stores customer information, including name, email, and phone number, allowing for personalized customer interactions and order tracking.
+1. Customers Table: Stores customer information, including name, email, and phone number, allowing for personalized customer interactions and order tracking.
 2. Employees Table**: Manages employee data such as names, contact information, hire dates, positions, and salaries, enabling effective employee management and payroll processing.
 3. Orders Table: Tracks order details, including the associated customer and employee, order date, and total amount, facilitating order processing and management.
 4. Books Table: Contains comprehensive information about available books, including titles and prices, ensuring accurate book inventory management and pricing.
